@@ -8,4 +8,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Dbup-MHS-Oct-Demo\Dbup-MHS-Oct-Demo\Dbup-MHS-Oct-Demo.csproj" />
+  </ItemGroup>
+
 </Project>

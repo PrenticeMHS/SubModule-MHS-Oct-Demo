@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubModule-MHS-Oct-Demo", "S
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Submodules", "Submodules", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dbup-MHS-Oct-Demo", "..\Dbup-MHS-Oct-Demo\Dbup-MHS-Oct-Demo\Dbup-MHS-Oct-Demo.csproj", "{DA51B759-E4AE-70F1-8193-E4D798F9D49F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,9 +19,16 @@ Global
 		{6FE2F188-CF76-4675-97BB-7199D9CE6551}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FE2F188-CF76-4675-97BB-7199D9CE6551}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FE2F188-CF76-4675-97BB-7199D9CE6551}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA51B759-E4AE-70F1-8193-E4D798F9D49F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA51B759-E4AE-70F1-8193-E4D798F9D49F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA51B759-E4AE-70F1-8193-E4D798F9D49F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA51B759-E4AE-70F1-8193-E4D798F9D49F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DA51B759-E4AE-70F1-8193-E4D798F9D49F} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DD0E25C5-0EE3-424E-928F-F416A11F1C7C}
