@@ -49,6 +49,7 @@ https://github.com/PrenticeMHS/Dbup-MHS-Oct-Demo/pull/2
     - look at and talk about the journaling tables.
 3. **POPULATE THE STORES PAGE**
     -	Give and add following script: SeedStores.sql
+    -	Place the script into the “Seeding” File under the “scripts” file 
     -	Update File using naming scheme YYYYMMDDHHMM[FileName].
     -	[INSERT DATE HERE]SeedStores.sql
 
@@ -58,6 +59,7 @@ https://github.com/PrenticeMHS/Dbup-MHS-Oct-Demo/pull/2
     - make sure to refernece the 'Stock' schema script
     - PROMPT: Create a new Migration script that will add quantity to the stock table with a default of 0 as well as create a new seeding script that will populate it based on the store and product table with random quanties.
     - run the 2 new scripts to add the quantity field and the seeding script.
+    - Ensure that the Migration file is placed in the “Migrations” folder, and the seeding script is placed in the “Seeding” folder. 
     - go back to the database
     - End off with this query:
 Select strs.outlet, strs.location, p.Name, stck.quantity
