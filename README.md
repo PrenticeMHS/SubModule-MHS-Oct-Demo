@@ -8,8 +8,8 @@
 
 **Note:** For this workshop you need to clone the repositories, downloading a zip copy will not work since the workflow we will learn and explore requires Git.  
 **Note:** Install SQL Express using the default settings and enable Windows Authentication by default. Do not change ports or directories.  
-Setup updated the "conn" connection string in the app.config to match your sqlexpress database's connection string. 
 
+Setup updated the "conn" connection string in the app.config to match your sqlexpress database's connection string. 
 Update the following Paths in the app.config to your own local directory:  
 - SchemaPath  
 - migrationPath  
