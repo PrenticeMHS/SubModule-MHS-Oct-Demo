@@ -42,11 +42,11 @@ https://github.com/PrenticeMHS/Dbup-MHS-Oct-Demo/pull/2
     - Line 16 is going to check if the database exists and it does not it will create it. *THIS CODE IS REQUIRED TO RUN THE UPGRADER*
     - Line 18Explain the Upgrader
     - Line 21-23 have them change the file location to match their local and give a brief explanation of WithScriptsFromFileSystem
-    - Line 26 Brief over view of logging with custom logging 
-    - over view of the OutputResults Method
+    - Line 26 Overview of the OutputResults method and compare them to the updater method.
+    - Overview of the OutputResults method and compare them to the updater method.
 2. **GO OVER THE DATABASE**
     - See the tables that were added
-    - See look at and talk about the journaling tables.
+    - look at and talk about the journaling tables.
 3. **POPULATE THE STORES PAGE**
     -	Give and add following script: SeedStores.sql
     -	Update File using naming scheme YYYYMMDDHHMM[FileName].
