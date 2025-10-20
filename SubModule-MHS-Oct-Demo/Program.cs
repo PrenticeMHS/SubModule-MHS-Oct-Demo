@@ -9,7 +9,6 @@ namespace SubModuleDemo
         public static int Main(string[] args)
         {
             //TODO: ADD DBUPDemo updator
-            
 
             // Get connection string from config
             var connectionString = System.Configuration.ConfigurationManager.ConnectionStrings["conn"].ConnectionString;
@@ -19,7 +18,7 @@ namespace SubModuleDemo
                 connection.Open();
 
                 // Query all stores from the Stores table
-                var command = new SqlCommand("SELECT * FROM Product", connection);
+                var command = new SqlCommand("Select strs.outlet, strs.location, p.Name, stck.quantity  From [dbo].[stores] strs  inner join [dbo].[stock] stck  on strs.id = stck.store_id  inner join [dbo].[Product] p  on stck.product_id = p.id", connection);
                 using (var reader = command.ExecuteReader())
                 {
                     // Print column names
